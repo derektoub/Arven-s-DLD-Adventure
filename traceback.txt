@@ -1,0 +1,31 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 112, in script
+    arven "[runs away]"
+KeyError: u'runs away'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 112, in script
+    arven "[runs away]"
+  File "/home/destiny/Documents/deskRandom/game/renpy-6.18.0-sdk/YES-1.0-dists/YES-1.0-linux/renpy/ast.py", line 586, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "/home/destiny/Documents/deskRandom/game/renpy-6.18.0-sdk/YES-1.0-dists/YES-1.0-linux/renpy/exports.py", line 992, in say
+    who(what, interact=interact)
+  File "/home/destiny/Documents/deskRandom/game/renpy-6.18.0-sdk/YES-1.0-dists/YES-1.0-linux/renpy/character.py", line 815, in __call__
+    what = what_pattern.replace("[what]", sub(what, translate=translate))
+  File "/home/destiny/Documents/deskRandom/game/renpy-6.18.0-sdk/YES-1.0-dists/YES-1.0-linux/renpy/character.py", line 797, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "/home/destiny/Documents/deskRandom/game/renpy-6.18.0-sdk/YES-1.0-dists/YES-1.0-linux/renpy/substitutions.py", line 229, in substitute
+    s = formatter.vformat(s, (), kwargs)
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 549, in vformat
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 571, in _vformat
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 632, in get_field
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 591, in get_value
+KeyError: u'runs away'
+
+Linux-3.11.0-26-generic-x86_64-with-debian-wheezy-sid
+Ren'Py 6.18.0.635
+YES 0.0
