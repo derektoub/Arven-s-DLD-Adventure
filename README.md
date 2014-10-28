@@ -1,7 +1,7 @@
 Arven's DLD Adventure
 =====================
 
-A homage to the bizarre and exciting life of Arven. This game brings us between lovers and worlds, with even more breakdancing and unspeakable horror than described in the giant walls of text that are the legends of Arven.
+A homage to the bizarre and exciting life of Arven. This game brings us between lovers and worlds, with even more breakdancing and unspeakable horror than described in the legends of Arven.
 
 The game is still in development, but if you want to play it, clone this repository, (git clone https://github.com/derektoub/Arven-s-DLD-Adventure.git), then run ./YES.sh (for *nix systems). YES.exe may run for Windows (haven't tested it, don't have Windows).
 
